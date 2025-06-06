@@ -42,6 +42,8 @@ dependencies:
 
   sensors_plus: ^4.0.2
   flutter_compass: ^0.8.1
+  dio: ^5.8.0+1
+  share_plus: ^7.2.2
 
 dev_dependencies:
   flutter_test:
