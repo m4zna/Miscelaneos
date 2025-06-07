@@ -27,3 +27,5 @@ Pruebas iOS
 En terminal->
 xcrun simctl openurl booted https://m4nzna-pokemon-deeplinking.up.railway.app/pokemons/1/
 
+#Cambiar API Keys de Google Maps
+

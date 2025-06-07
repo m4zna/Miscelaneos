@@ -10,11 +10,11 @@ class MapScreen extends ConsumerWidget {
   Widget build(BuildContext context, ref) {
     final currentLocation = ref.watch(userLocationProvider);
     return Scaffold(
-        appBar: AppBar(title: Text('Map Screen')),
+        appBar: AppBar(title: const Text('Map Screen')),
         body: currentLocation.when(
             data: (data) => _MapView(initialLatitude: data.$1, initialLongitude: data.$2),
             error: (error, stackTrace) => Text('Error: $error'),
-            loading: () => Center(child: CircularProgressIndicator())));
+            loading: () => const Center(child: CircularProgressIndicator())));
   }
 }
 
