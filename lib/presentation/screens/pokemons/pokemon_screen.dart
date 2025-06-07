@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/config/config.dart';
-import 'package:share_plus/share_plus.dart';
 
 import '../../../domain/domain.dart';
 import '../../providers/providers.dart';
@@ -18,11 +17,6 @@ class PokemonScreen extends ConsumerWidget {
         data: (pokemon) => _PokemonView(pokemon: pokemon),
         error: (error, stackTrace) => _ErrorWidget(message: error.toString()),
         loading: () => _LoadingWidget());
-
-    return Scaffold(
-      appBar: AppBar(title: Text('Pokemon $pokemonId')),
-      body: Center(child: Text('Pokemon $pokemonId')),
-    );
   }
 }
 
