@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/presentation/providers/providers.dart';
 
 import 'config/config.dart';
-import 'presentation/providers/app_state_provider.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
