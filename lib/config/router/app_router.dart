@@ -19,4 +19,8 @@ final router = GoRouter(routes: [
     )
   ]),
   GoRoute(path: '/biometrics', builder: (context, state) => const BiometricsScreen()),
+
+  GoRoute(path: '/location', builder: (context, state) => const LocationScreen()),
+  GoRoute(path: '/control', builder: (context, state) => const ControlledMapScreen()),
+  GoRoute(path: '/maps', builder: (context, state) => const MapScreen()),
 ]);

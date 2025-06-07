@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
+
     <uses-permission android:name="android.permission.BODY_SENSORS" />
     <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND" />
     
@@ -22,6 +23,8 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:label="miscelaneos">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDHx-NORPbiNRpy4jku808LS5QvL3xKtkQ"/>
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
