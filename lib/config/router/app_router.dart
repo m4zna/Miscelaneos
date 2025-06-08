@@ -2,7 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:miscelaneos/presentation/screens/screens.dart';
 
 final router = GoRouter(routes: [
-  GoRoute(path: '/', builder: (context, state) => HomeScreen()),
+  GoRoute(path: '/', builder: (context, state) => const HomeScreen()),
   GoRoute(path: '/permissions', builder: (context, state) => PermissionsScreen()),
   GoRoute(path: '/gyroscope', builder: (context, state) => const GyroscopeScreen()),
   GoRoute(path: '/accelerometer', builder: (context, state) => const AccelerometerScreen()),
@@ -23,4 +23,6 @@ final router = GoRouter(routes: [
   GoRoute(path: '/location', builder: (context, state) => const LocationScreen()),
   GoRoute(path: '/control', builder: (context, state) => const ControlledMapScreen()),
   GoRoute(path: '/maps', builder: (context, state) => const MapScreen()),
+
+  GoRoute(path: '/badge', builder: (context, state) => const BadgeScreen()),
 ]);

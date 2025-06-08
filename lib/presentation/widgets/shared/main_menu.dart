@@ -20,8 +20,11 @@ final List<MenuItem> menuItems = [
   MenuItem(title: 'Biómetricos', icon: Icons.fingerprint_outlined, route: '/biometrics'),
 
   MenuItem(title: 'Ubicación', icon: Icons.location_on_outlined, route: '/location'),
-  MenuItem(title: 'Control', icon: Icons.control_camera_outlined, route: '/control'),
   MenuItem(title: 'Mapa', icon: Icons.map_outlined, route: '/maps'),
+  MenuItem(title: 'Control', icon: Icons.control_camera_outlined, route: '/control'),
+
+  MenuItem(title: 'Badge', icon: Icons.notification_important_rounded, route: '/badge'),
+
 ];
 
 class MainMenu extends StatelessWidget {
@@ -57,7 +60,7 @@ class HomeMenuItem extends StatelessWidget {
     return GestureDetector(
       onTap: () => context.push(route),
       child: Container(
-        padding: EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
@@ -67,8 +70,8 @@ class HomeMenuItem extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(icon, color: Colors.white, size: 40),
-            SizedBox(height: 10),
-            Text(title, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold))
+            const SizedBox(height: 10),
+            Text(title, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold))
           ],
         ),
       ),
