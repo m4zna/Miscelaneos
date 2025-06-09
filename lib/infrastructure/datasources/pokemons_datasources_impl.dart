@@ -13,10 +13,9 @@ class PokemonsDataSourceImpl implements PokemonsDataSource {
     try {
       final response = await dio.get('/pokemon/$id');
       final pokemon = PokemonMapper.pokeApiPokemonToEntity(response.data);
-      return (pokemon, 'Data obtenida');
-
+      return ( pokemon, 'Data obtenida correctamente' );
     } catch (e) {
-      return (null, 'No se pudo obtener el error $e');
+      return ( null, 'No se pudo obtener el pokémon $e' );
     }
   }
 }

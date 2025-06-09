@@ -17,17 +17,14 @@ final List<MenuItem> menuItems = [
       title: 'Giroscopio Ball', icon: Icons.sports_baseball_outlined, route: '/gyroscope-ball'),
   MenuItem(title: 'Brujula', icon: Icons.explore, route: '/compass'),
   MenuItem(title: 'Pokemons', icon: Icons.catching_pokemon_outlined, route: '/pokemons'),
+  MenuItem(title: 'Backgroud Process', icon: Icons.storage_rounded, route: '/db-pokemons'),
   MenuItem(title: 'Biómetricos', icon: Icons.fingerprint_outlined, route: '/biometrics'),
-
   MenuItem(title: 'Ubicación', icon: Icons.location_on_outlined, route: '/location'),
   MenuItem(title: 'Mapa', icon: Icons.map_outlined, route: '/maps'),
   MenuItem(title: 'Control', icon: Icons.control_camera_outlined, route: '/control'),
-
   MenuItem(title: 'Badge', icon: Icons.notification_important_rounded, route: '/badge'),
-
   MenuItem(title: 'Anuncio Completo', icon: Icons.ad_units_rounded, route: '/ad-full'),
   MenuItem(title: 'Anuncio Recompensa', icon: Icons.fort, route: '/ad-rewarded'),
-
 ];
 
 class MainMenu extends StatelessWidget {

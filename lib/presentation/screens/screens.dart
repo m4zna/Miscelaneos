@@ -9,6 +9,7 @@ export 'permissions/ask_location_screen.dart';
 
 export 'pokemons/pokemons_screen.dart';
 export 'pokemons/pokemon_screen.dart';
+export 'pokemons/db_pokemons_screen.dart';
 
 export 'biometrics/biometrics_screen.dart';
 

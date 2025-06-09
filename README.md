@@ -29,3 +29,10 @@ xcrun simctl openurl booted https://m4nzna-pokemon-deeplinking.up.railway.app/po
 
 #Cambiar API Keys de Google Maps
 
+
+##Generador de codigo (ISAR, RIVERPOD)
+dart run build_runner build
+o
+flutter pub run build_runner build
+
+
