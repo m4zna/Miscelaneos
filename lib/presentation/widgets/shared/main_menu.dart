@@ -25,6 +25,9 @@ final List<MenuItem> menuItems = [
 
   MenuItem(title: 'Badge', icon: Icons.notification_important_rounded, route: '/badge'),
 
+  MenuItem(title: 'Anuncio Completo', icon: Icons.ad_units_rounded, route: '/ad-full'),
+  MenuItem(title: 'Anuncio Recompensa', icon: Icons.fort, route: '/ad-rewarded'),
+
 ];
 
 class MainMenu extends StatelessWidget {

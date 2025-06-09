@@ -23,6 +23,11 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:label="miscelaneos">
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3166188641376920~5497380399"/>
+
         <meta-data android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDHx-NORPbiNRpy4jku808LS5QvL3xKtkQ"/>
         <activity
